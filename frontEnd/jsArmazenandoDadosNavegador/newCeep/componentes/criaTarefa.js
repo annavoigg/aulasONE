@@ -38,7 +38,7 @@ import BotaoDeleta from './deletaTarefa.js'
     export const Tarefa = ({valor, horario, concluida}, id) => {
 
     const tarefa = document.createElement('li');
-    const conteudo = `<p class="content">${horario3} * ${valor}</p>`;
+    const conteudo = `<p class="content">${horario} * ${valor}</p>`;
 
     if(concluida){
 
